@@ -1,22 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hrushi Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B Hrushikesh | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    color:#cbd5e1;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h2{
+    margin-bottom:20px;
+    border-bottom:2px solid #38bdf8;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:15px 20px;
+    border-radius:10px;
+}
+
+.project{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#94a3b8;
+}
+</style>
 </head>
+
 <body>
-    <h1>Hi, I'm Hrushi</h1>
-    <p>Diploma CSE Final Year Student</p>
 
+<header>
+    <h1>B Hrushikesh</h1>
+    <p>Diploma CSE Student | Future Software Engineer</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a Diploma CSE student passionate about technology,
+        software engineering, networking, troubleshooting,
+        and business solutions in the computer sector.
+        I enjoy learning new technologies and building practical solutions.
+    </p>
+</section>
+
+<section>
     <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-    </ul>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Networking</div>
+        <div class="skill">Troubleshooting</div>
+        <div class="skill">Technical Solutions</div>
+    </div>
+</section>
 
+<section>
     <h2>Projects</h2>
-    <ul>
-        <li>Portfolio Website</li>
-    </ul>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio hosted using GitHub Pages.</p>
+    </div>
+
+    <div class="project">
+        <h3>Upcoming Projects</h3>
+        <p>More software and networking projects will be added soon.</p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <p>Email:</p>
+    <a href="mailto:bheemanapalli01@gmail.com">
+        bheemanapalli01@gmail.com
+    </a>
+</section>
+
+<footer>
+    © 2026 B Hrushikesh. All Rights Reserved.
+</footer>
+
 </body>
 </html>
